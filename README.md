@@ -11,6 +11,9 @@ https://www.worldometers.info/world-population/germany-population/
 Strength: complete total numbers of inhabitants per country 
 Weakness: only quinquennial, but not annually
 
+Importing pandas & numpy libraries
+Importing csv data table
+
 Hypotheses: 
 1. Total cancer incidences are increasing in Chile & Germany between 1990 and 2015.
 2. The stomach cancer incidence is decreasing in the Chilean population between 1990 - 2015, while liver cancer incidence is increasing.
@@ -26,8 +29,24 @@ change object classifications (str --> int, float --> int)
 column name renaming
 
 Merging the data frames for cancer counts and population counts
-Creating new smaller data frames containing only part of the data
-including statistics in these data frames
+Creating new smaller data frames containing only part of the data, dropping columns
+including statistics in these data frames: calculating total numbers, incidences (%), increases (differences)
 
+importing seaborn and mathplot libraries
+create graphs of incidences and cancer case numbers over time to answer the hypotheses
+
+Conclusions:
+Chile: Moderate increment in total cancer incidence between 1990 - 2005.
+Chile: Notorious increment in total cancer cases from 2000 to 2015.
+Germany: little increase in total cancer incidence between 1990 - 2005
+Germany: apparent increase in total cancer incidence between 2005 - 2015
+
+Chile: 
+liver
+stomach
+
+Germany:
+Liver cancer case numbers (#) and incidence (%) in the German population are increasing from 0.0047% to 0.0098% (double!) between 1990 - 2015.
+Breast cancer case numbers (#) and incidence (%) in the German population are not increasing, but rather stagnating between 1990 - 2015.
 
 Presentation: https://docs.google.com/presentation/d/1GKCkAWXRDxgw6Yf5giWRLbMkxJzinMAXjBBc4AEhOJk/edit#slide=id.p
